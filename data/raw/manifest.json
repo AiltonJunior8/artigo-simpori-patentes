@@ -1,0 +1,79 @@
+{
+  "depositos_escritorio": {
+    "arquivo": "depositos_escritorio.csv",
+    "descricao": "Pedidos de patente (diretos + fase nacional PCT) por escritório",
+    "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/ips-search/downloadCsv?selectedTab=patent&indicator=10&reportType=11&fromYear=1980&toYear=2024&ipsTechSelValues=900&ipsTechSelValues=901&ipsTechSelValues=902",
+    "params": {
+      "selectedTab": "patent",
+      "indicator": "10",
+      "reportType": "11",
+      "fromYear": 1980,
+      "toYear": 2024,
+      "ipsTechSelValues": [
+        "900",
+        "901",
+        "902"
+      ]
+    },
+    "extraido_em": "2026-10-07T02:30:07+00:00",
+    "ompi_last_updated": "May 2026",
+    "bytes": 147632
+  },
+  "depositos_origem": {
+    "arquivo": "depositos_origem.csv",
+    "descricao": "Pedidos de patente (diretos + fase nacional PCT) por país de origem",
+    "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/ips-search/downloadCsv?selectedTab=patent&indicator=10&reportType=13&fromYear=1980&toYear=2024&ipsTechSelValues=910&ipsTechSelValues=911&ipsTechSelValues=912&ipsTechSelValues=913&ipsTechSelValues=914",
+    "params": {
+      "selectedTab": "patent",
+      "indicator": "10",
+      "reportType": "13",
+      "fromYear": 1980,
+      "toYear": 2024,
+      "ipsTechSelValues": [
+        "910",
+        "911",
+        "912",
+        "913",
+        "914"
+      ]
+    },
+    "extraido_em": "2026-10-07T02:30:11+00:00",
+    "ompi_last_updated": "May 2026",
+    "bytes": 239326
+  },
+  "publicacoes_campo_origem": {
+    "arquivo": "publicacoes_campo_origem.csv",
+    "descricao": "Publicações de patente por campo tecnológico (35 campos) e país de origem",
+    "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/ips-search/downloadCsv?selectedTab=patent&indicator=17&reportType=13&fromYear=1980&toYear=2024&ipsTechSelValues=0&ipsTechSelValues=1&ipsTechSelValues=10&ipsTechSelValues=11&ipsTechSelValues=12&ipsTechSelValues=13&ipsTechSelValues=14&ipsTechSelValues=15&ipsTechSelValues=16&ipsTechSelValues=17&ipsTechSelValues=18&ipsTechSelValues=19&ipsTechSelValues=2&ipsTechSelValues=20&ipsTechSelValues=21&ipsTechSelValues=22&ipsTechSelValues=23&ipsTechSelValues=24&ipsTechSelValues=25&ipsTechSelValues=26&ipsTechSelValues=27&ipsTechSelValues=28&ipsTechSelValues=29&ipsTechSelValues=3&ipsTechSelValues=30&ipsTechSelValues=31&ipsTechSelValues=32&ipsTechSelValues=33&ipsTechSelValues=34&ipsTechSelValues=35&ipsTechSelValues=4&ipsTechSelValues=5&ipsTechSelValues=6&ipsTechSelValues=7&ipsTechSelValues=8&ipsTechSelValues=9",
+    "params": {
+      "selectedTab": "patent",
+      "indicator": "17",
+      "reportType": "13",
+      "fromYear": 1980,
+      "toYear": 2024,
+      "ipsTechSelValues": "TODOS"
+    },
+    "extraido_em": "2026-10-07T02:30:27+00:00",
+    "ompi_last_updated": "May 2026",
+    "bytes": 1301070
+  },
+  "pct_origem": {
+    "arquivo": "pct_origem.csv",
+    "descricao": "Pedidos PCT por data de depósito e país de origem (todos os escritórios receptores)",
+    "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/pmh-search/downloadCsv?selectedTab=pct&indicator=1001&reportType=4001&fromYear=1995&toYear=2024&pmhOffSelValues=ZZ&pmhOriSelValues=%2A%2A&pmhOriSelValues=AD&pmhOriSelValues=AE&pmhOriSelValues=AF&pmhOriSelValues=AG&pmhOriSelValues=AL&pmhOriSelValues=AM&pmhOriSelValues=AN&pmhOriSelValues=AO&pmhOriSelValues=AR&pmhOriSelValues=AT&pmhOriSelValues=AU&pmhOriSelValues=AZ&pmhOriSelValues=BA&pmhOriSelValues=BB&pmhOriSelValues=BD&pmhOriSelValues=BE&pmhOriSelValues=BF&pmhOriSelValues=BG&pmhOriSelValues=BH&pmhOriSelValues=BI&pmhOriSelValues=BJ&pmhOriSelValues=BN&pmhOriSelValues=BO&pmhOriSelValues=BQ&pmhOriSelValues=BR&pmhOriSelValues=BS&pmhOriSelValues=BT&pmhOriSelValues=BW&pmhOriSelValues=BY&pmhOriSelValues=BZ&pmhOriSelValues=CA&pmhOriSelValues=CD&pmhOriSelValues=CF&pmhOriSelValues=CG&pmhOriSelValues=CH&pmhOriSelValues=CI&pmhOriSelValues=CK&pmhOriSelValues=CL&pmhOriSelValues=CM&pmhOriSelValues=CN&pmhOriSelValues=CO&pmhOriSelValues=CR&pmhOriSelValues=CU&pmhOriSelValues=CV&pmhOriSelValues=CW&pmhOriSelValues=CY&pmhOriSelValues=CZ&pmhOriSelValues=DE&pmhOriSelValues=DJ&pmhOriSelValues=DK&pmhOriSelValues=DM&pmhOriSelValues=DO&pmhOriSelValues=DZ&pmhOriSelValues=EC&pmhOriSelValues=EE&pmhOriSelValues=EG&pmhOriSelValues=ER&pmhOriSelValues=ES&pmhOriSelValues=ET&pmhOriSelValues=FI&pmhOriSelValues=FJ&pmhOriSelValues=FM&pmhOriSelValues=FR&pmhOriSelValues=GA&pmhOriSelValues=GB&pmhOriSelValues=GD&pmhOriSelValues=GE&pmhOriSelValues=GH&pmhOriSelValues=GM&pmhOriSelValues=GN&pmhOriSelValues=GQ&pmhOriSelValues=GR&pmhOriSelValues=GT&pmhOriSelValues=GW&pmhOriSelValues=GY&pmhOriSelValues=HK&pmhOriSelValues=HN&pmhOriSelValues=HR&pmhOriSelValues=HT&pmhOriSelValues=HU&pmhOriSelValues=ID&pmhOriSelValues=IE&pmhOriSelValues=IL&pmhOriSelValues=IN&pmhOriSelValues=IQ&pmhOriSelValues=IR&pmhOriSelValues=IS&pmhOriSelValues=IT&pmhOriSelValues=JM&pmhOriSelValues=JO&pmhOriSelValues=JP&pmhOriSelValues=KE&pmhOriSelValues=KG&pmhOriSelValues=KH&pmhOriSelValues=KI&pmhOriSelValues=KM&pmhOriSelValues=KN&pmhOriSelValues=KP&pmhOriSelValues=KR&pmhOriSelValues=KW&pmhOriSelValues=KZ&pmhOriSelValues=LA&pmhOriSelValues=LB&pmhOriSelValues=LC&pmhOriSelValues=LI&pmhOriSelValues=LK&pmhOriSelValues=LR&pmhOriSelValues=LS&pmhOriSelValues=LT&pmhOriSelValues=LU&pmhOriSelValues=LV&pmhOriSelValues=LY&pmhOriSelValues=MA&pmhOriSelValues=MC&pmhOriSelValues=MD&pmhOriSelValues=ME&pmhOriSelValues=MG&pmhOriSelValues=MH&pmhOriSelValues=MK&pmhOriSelValues=ML&pmhOriSelValues=MM&pmhOriSelValues=MN&pmhOriSelValues=MO&pmhOriSelValues=MR&pmhOriSelValues=MT&pmhOriSelValues=MU&pmhOriSelValues=MV&pmhOriSelValues=MW&pmhOriSelValues=MX&pmhOriSelValues=MY&pmhOriSelValues=MZ&pmhOriSelValues=NA&pmhOriSelValues=NE&pmhOriSelValues=NG&pmhOriSelValues=NI&pmhOriSelValues=NL&pmhOriSelValues=NO&pmhOriSelValues=NP&pmhOriSelValues=NR&pmhOriSelValues=NZ&pmhOriSelValues=OM&pmhOriSelValues=PA&pmhOriSelValues=PE&pmhOriSelValues=PG&pmhOriSelValues=PH&pmhOriSelValues=PK&pmhOriSelValues=PL&pmhOriSelValues=PT&pmhOriSelValues=PW&pmhOriSelValues=PY&pmhOriSelValues=QA&pmhOriSelValues=R1&pmhOriSelValues=R2&pmhOriSelValues=R3&pmhOriSelValues=R4&pmhOriSelValues=R5&pmhOriSelValues=R6&pmhOriSelValues=RO&pmhOriSelValues=RS&pmhOriSelValues=RU&pmhOriSelValues=RW&pmhOriSelValues=SA&pmhOriSelValues=SB&pmhOriSelValues=SC&pmhOriSelValues=SD&pmhOriSelValues=SE&pmhOriSelValues=SG&pmhOriSelValues=SI&pmhOriSelValues=SK&pmhOriSelValues=SL&pmhOriSelValues=SM&pmhOriSelValues=SN&pmhOriSelValues=SO&pmhOriSelValues=SR&pmhOriSelValues=SS&pmhOriSelValues=ST&pmhOriSelValues=SV&pmhOriSelValues=SX&pmhOriSelValues=SY&pmhOriSelValues=SZ&pmhOriSelValues=TD&pmhOriSelValues=TG&pmhOriSelValues=TH&pmhOriSelValues=TJ&pmhOriSelValues=TL&pmhOriSelValues=TM&pmhOriSelValues=TN&pmhOriSelValues=TO&pmhOriSelValues=TR&pmhOriSelValues=TT&pmhOriSelValues=TV&pmhOriSelValues=TZ&pmhOriSelValues=UA&pmhOriSelValues=UG&pmhOriSelValues=US&pmhOriSelValues=UY&pmhOriSelValues=UZ&pmhOriSelValues=VA&pmhOriSelValues=VC&pmhOriSelValues=VE&pmhOriSelValues=VN&pmhOriSelValues=VU&pmhOriSelValues=WS&pmhOriSelValues=YE&pmhOriSelValues=ZA&pmhOriSelValues=ZM&pmhOriSelValues=ZW&pmhOriSelValues=ZZ",
+    "params": {
+      "selectedTab": "pct",
+      "indicator": "1001",
+      "reportType": "4001",
+      "fromYear": 1995,
+      "toYear": 2024,
+      "pmhOffSelValues": [
+        "ZZ"
+      ],
+      "pmhOriSelValues": "TODOS"
+    },
+    "extraido_em": "2026-10-07T02:30:29+00:00",
+    "ompi_last_updated": "October 2026",
+    "bytes": 32379
+  }
+}

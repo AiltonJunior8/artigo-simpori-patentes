@@ -1,0 +1,19 @@
+# Ambiente do projeto (Python 3.12). Instalar com: pip install -r requirements.txt
+-e .
+ipython
+jupyterlab
+loguru
+matplotlib
+nbconvert
+nbformat
+notebook
+numpy
+openpyxl
+pandas
+pip
+pytest
+python-dotenv
+requests
+ruff
+tqdm
+typer

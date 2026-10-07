@@ -1,0 +1,2 @@
+# Dados brutos da OMPI ficam byte a byte como baixados (sem conversão de quebra de linha)
+data/raw/** -text
